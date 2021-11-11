@@ -2,7 +2,7 @@
 //  ViewController.swift
 //  NumberGuesser
 //
-//  Created by Stefan Hemberger on 14.10.21.
+//  Created by Stefan Hemburger on 14.10.21.
 //
 
 import UIKit
@@ -12,7 +12,8 @@ class ViewController: UIViewController {
     @IBOutlet weak var inputField: UITextField!
     @IBOutlet weak var textView: UILabel!
     
-    @IBOutlet weak var button: UITextField!
+    @IBOutlet weak var therealbutton: UIButton!
+
     // let target: Int = Int.random(in: 0...100)
     var model = Model()
     
@@ -24,7 +25,7 @@ class ViewController: UIViewController {
     
     
     @IBAction func onEditingChanged(_ sender: Any) {
-        self.button.isEnabled = true
+        self.therealbutton.isEnabled = true
     }
     
     @IBAction func onCheckButtonClicked(_ sender: Any) {
@@ -57,3 +58,4 @@ class ViewController: UIViewController {
     }
     
 }
+

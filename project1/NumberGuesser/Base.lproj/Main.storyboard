@@ -69,9 +69,8 @@
                     </view>
                     <navigationItem key="navigationItem" title="Game" id="qer-H0-RgQ"/>
                     <connections>
-                        <outlet property="button" destination="H33-l7-7g1" id="1hq-zm-gOO"/>
-                        <outlet property="inputField" destination="H33-l7-7g1" id="OI0-gF-AdP"/>
                         <outlet property="textView" destination="HtP-eX-GXC" id="sP8-xM-hmw"/>
+                        <outlet property="therealbutton" destination="fot-M0-HeM" id="T3j-hp-Bnr"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
